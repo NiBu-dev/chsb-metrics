@@ -8,8 +8,10 @@ const reponame = process.env.PRISMIC_REPO_NAME || prismicRepo
 const apiKey = process.env.PRISMIC_API_KEY || accessToken
 const prismicReleaseID = process.env.PRISMIC_RELEASE_ID || releaseID
 
-const blogHomeSchema = require('./custom_types/bloghome.json')
-const postSchema = require('./custom_types/post.json')
+const chsbMetricsSchema  = require('./custom_types/chsb_metrics.json')
+const appRatingSchema  = require('./custom_types/app_rating_data.json')
+const navigationSchema  = require('./custom_types/navigation.json')
+const footerSchema  = require('./custom_types/footer.json')
 
 const gastbySourcePrismicConfig = {
   resolve: 'gatsby-source-prismic',
@@ -20,8 +22,10 @@ const gastbySourcePrismicConfig = {
     prismicToolbar: true,
     linkResolver: () => {},
     schemas: {
-      blogHome: blogHomeSchema,
-      post: postSchema
+      chsb_metrics: chsbMetricsSchema,
+      app_rating_data: appRatingSchema,
+      navigation: navigationSchema,
+      footer: footerSchema
     },
   },
 }

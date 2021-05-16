@@ -1,0 +1,498 @@
+{
+    "data": {
+      "prismicFooter": {
+        "dataRaw": {
+          "body": [
+            {
+              "slice_type": "subscribe_footer_slice",
+              "slice_label": null,
+              "items": [
+                {}
+              ],
+              "primary": {
+                "title": [
+                  {
+                    "type": "paragraph",
+                    "text": "Get the latest product updates, news and analysis from the SwissBorg team",
+                    "spans": []
+                  }
+                ],
+                "name_input_placeholder": "Name",
+                "email_input_placeholder": "Email Address",
+                "button_text": "Subscribe Now",
+                "error_message_name_required": "Please fill the name field.",
+                "error_message_name_too_short": "Too Short!",
+                "error_message_name_too_long": "Too Long!",
+                "error_message_email_format": "Please format the email correctly.",
+                "error_message_email_required": "Please fill the email field."
+              }
+            },
+            {
+              "slice_type": "links_columns",
+              "slice_label": null,
+              "items": [
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Premium Account",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://swisborg.com/premium-account"
+                  }
+                },
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Smart Yield Account",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/smart-yield-account"
+                  }
+                },
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Supported cryptos and fiats",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/supported-assets"
+                  }
+                },
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Supported countries",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/supported-countries"
+                  }
+                },
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Rewards Program",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/chsb-rewards"
+                  }
+                },
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Transparent fees",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/legal/swissborg-app-fees"
+                  }
+                },
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Help and support",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://help.swissborg.com/hc/en-gb"
+                  }
+                }
+              ],
+              "primary": {
+                "column_title": [
+                  {
+                    "type": "heading3",
+                    "text": "SwissBorg app",
+                    "spans": []
+                  }
+                ]
+              }
+            },
+            {
+              "slice_type": "links_columns",
+              "slice_label": null,
+              "items": [
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "How to buy CHSB",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/buy-chsb"
+                  }
+                },
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Price and performance",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "id": "YJ4W5xEAAB8Ai4PL",
+                    "type": "chsb_metrics",
+                    "tags": [],
+                    "slug": "chsb-metrics",
+                    "lang": "en-us",
+                    "uid": "chsb-metrics",
+                    "link_type": "Document",
+                    "isBroken": false
+                  }
+                }
+              ],
+              "primary": {
+                "column_title": [
+                  {
+                    "type": "heading3",
+                    "text": "CHSB Token",
+                    "spans": []
+                  }
+                ]
+              }
+            },
+            {
+              "slice_type": "links_columns",
+              "slice_label": null,
+              "items": [
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Product",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/category/product"
+                  }
+                },
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Cryptonites",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/category/cryptonites"
+                  }
+                },
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Educational",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/category/educational"
+                  }
+                },
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "News",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/category/news"
+                  }
+                },
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Opinion",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/category/opinion"
+                  }
+                }
+              ],
+              "primary": {
+                "column_title": [
+                  {
+                    "type": "heading3",
+                    "text": "Blog",
+                    "spans": []
+                  }
+                ]
+              }
+            },
+            {
+              "slice_type": "links_columns",
+              "slice_label": null,
+              "items": [
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "About SwissBorg",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/about"
+                  }
+                },
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Careers",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://jobs.lever.co/swissborg"
+                  }
+                },
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Affliate Program",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/affiliate-program"
+                  }
+                },
+                {
+                  "label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Contact",
+                      "spans": []
+                    }
+                  ],
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://help.swissborg.com/hc/en-us/requests/new"
+                  }
+                }
+              ],
+              "primary": {
+                "column_title": [
+                  {
+                    "type": "paragraph",
+                    "text": "Team",
+                    "spans": []
+                  }
+                ]
+              }
+            },
+            {
+              "slice_type": "social_media_links",
+              "slice_label": null,
+              "items": [
+                {
+                  "icon": {
+                    "dimensions": {
+                      "width": 32,
+                      "height": 32
+                    },
+                    "alt": "Twitter",
+                    "copyright": null,
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/d0b1de60-ede4-4988-a23f-58281078e0d7_twitter.svg"
+                  },
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://twitter.com/swissborg"
+                  }
+                },
+                {
+                  "icon": {
+                    "dimensions": {
+                      "width": 32,
+                      "height": 32
+                    },
+                    "alt": "Discord",
+                    "copyright": null,
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/827ff8ae-b41e-4fb0-bdfc-ad05d73ff7d6_discord.svg"
+                  },
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://discord.com/invite/aWTVhyJcjS"
+                  }
+                },
+                {
+                  "icon": {
+                    "dimensions": {
+                      "width": 32,
+                      "height": 32
+                    },
+                    "alt": "Youtube",
+                    "copyright": null,
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/61c52160-bcb2-42f5-a172-74e4f69d210b_youtube.svg"
+                  },
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://www.youtube.com/channel/UC_Jyx7gJXh3yHFxZSJIlIhQ"
+                  }
+                },
+                {
+                  "icon": {
+                    "dimensions": {
+                      "width": 32,
+                      "height": 32
+                    },
+                    "alt": "Facebook",
+                    "copyright": null,
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/63801fcd-259d-4b3a-8ae2-ac7e3ff9fbb4_fb.svg"
+                  },
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://www.facebook.com/swissborg"
+                  }
+                },
+                {
+                  "icon": {
+                    "dimensions": {
+                      "width": 32,
+                      "height": 32
+                    },
+                    "alt": "Linkedin",
+                    "copyright": null,
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/b4f6f96a-6d5f-498f-8f9a-e9130b9f1e2e_linkedin.svg"
+                  },
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://www.linkedin.com/company/11040884/"
+                  }
+                },
+                {
+                  "icon": {
+                    "dimensions": {
+                      "width": 32,
+                      "height": 32
+                    },
+                    "alt": "Telegram",
+                    "copyright": null,
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/4f20628a-f603-4488-ae86-a40122daac0e_telegram.svg"
+                  },
+                  "link": {
+                    "link_type": "Web",
+                    "url": "https://t.me/SwissBorgChat"
+                  }
+                }
+              ],
+              "primary": {}
+            },
+            {
+              "slice_type": "address_and_disclaimer_slice",
+              "slice_label": null,
+              "items": [
+                {
+                  "address_column_title": "Holding and headquarters in Switzerland",
+                  "entity_name": "SBorg SA",
+                  "address": "Rue du Grand-Chêne 8, 1003 Lausanne Switzerland"
+                },
+                {
+                  "address_column_title": "Representative office in Switzerland of SwissBorg Solutions OÜ",
+                  "entity_name": "SwissBorg Invest SA",
+                  "address": "Rue du Grand-Chêne 8, 1003 Lausanne, Switzerland"
+                },
+                {
+                  "address_column_title": "Operating the SwissBorg App under the license FVT000326 in Estonia",
+                  "entity_name": "SwissBorg Solutions OÜ",
+                  "address": "Roosikrantsi tn 2-1091,Kesklinna linnaosa, Tallinn, Harju maakond 10119, Estonia"
+                }
+              ],
+              "primary": {
+                "disclaimer_text": [
+                  {
+                    "type": "paragraph",
+                    "text": "By using this website you agree to our Terms of Use. Nothing on this website should be construed as a recommendation for any action. SwissBorg Solutions OÜ is the owner of the license: FVT000326 (link). For more details, please see the Terms of Use of the SwissBorg app.",
+                    "spans": [
+                      {
+                        "start": 196,
+                        "end": 200,
+                        "type": "hyperlink",
+                        "data": {
+                          "link_type": "Web",
+                          "url": "https://mtr.mkm.ee/taotluse_tulemus/547618?backurl=%40juriidiline_isik_show%3Fid%3D267215"
+                        }
+                      },
+                      {
+                        "start": 236,
+                        "end": 248,
+                        "type": "hyperlink",
+                        "data": {
+                          "link_type": "Web",
+                          "url": "https://swissborg.com/legal/swissborg-app-terms-of-use"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "tnc_link_name": "Terms of Use",
+                "tnc_link": {
+                  "link_type": "Web",
+                  "url": "https://swissborg.com/legal/terms-of-use"
+                },
+                "privacy_policy_link_name": "Privacy Policy",
+                "privacy_policy_link": {
+                  "link_type": "Web",
+                  "url": "https://swissborg.com/legal/privacy-policy"
+                },
+                "cookies_policy_link_name": "Cookies Policy",
+                "cookies_policy_link": {
+                  "link_type": "Web",
+                  "url": "https://swissborg.com/legal/cookies-policy"
+                },
+                "made_in_switzerland_text": "Proudly engineered in Switzerland",
+                "join_the_community_text": "Join the Community"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "extensions": {}
+  }

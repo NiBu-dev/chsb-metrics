@@ -1,0 +1,94 @@
+{
+    "data": {
+      "prismicAppRatingData": {
+        "dataRaw": {
+          "star_icon": {
+            "dimensions": {
+              "width": 12,
+              "height": 11
+            },
+            "alt": "Star",
+            "copyright": null,
+            "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/a89bd259-bd9b-4295-8ec7-02b318567dfb_shapestar.svg"
+          },
+          "qr_code": {
+            "dimensions": {
+              "width": 158,
+              "height": 158
+            },
+            "alt": "Download App qr code",
+            "copyright": null,
+            "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/f2e790f4-8348-46df-8ca1-d1ff372f69f7_qr-code.svg"
+          },
+          "qr_code_text": [
+            {
+              "type": "paragraph",
+              "text": "Scan QR code to download the App",
+              "spans": []
+            }
+          ],
+          "qr_code_button_image": {
+            "dimensions": {
+              "width": 24,
+              "height": 24
+            },
+            "alt": "Qr code btn",
+            "copyright": null,
+            "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/d61bb8d8-811a-4e5f-bbeb-e66d380fbcfc_qr-button.svg"
+          },
+          "body": [
+            {
+              "slice_type": "app_store",
+              "slice_label": null,
+              "items": [
+                {
+                  "store_image": {
+                    "dimensions": {
+                      "width": 150,
+                      "height": 53
+                    },
+                    "alt": "App Store",
+                    "copyright": null,
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/006d34a2-dd4c-4fbe-b8df-d796b63faea6_app-store-badge-default.svg",
+                    "active": {
+                      "dimensions": {
+                        "width": 150,
+                        "height": 53
+                      },
+                      "alt": "App Store",
+                      "copyright": null,
+                      "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/91c38f38-7657-4dd3-81d5-070590b2957b_app-store-badge-active.svg"
+                    }
+                  },
+                  "store_rating": "5.0"
+                },
+                {
+                  "store_image": {
+                    "dimensions": {
+                      "width": 150,
+                      "height": 53
+                    },
+                    "alt": "Google play",
+                    "copyright": null,
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/b7464308-0022-40a6-8a6c-fcd6f66e58cb_google-play-badge-default.svg",
+                    "active": {
+                      "dimensions": {
+                        "width": 150,
+                        "height": 53
+                      },
+                      "alt": "Google play",
+                      "copyright": null,
+                      "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/6c1ed896-844c-4423-8329-002325490a2e_google-play-badge-active.svg"
+                    }
+                  },
+                  "store_rating": "5.0"
+                }
+              ],
+              "primary": {}
+            }
+          ]
+        }
+      }
+    },
+    "extensions": {}
+  }

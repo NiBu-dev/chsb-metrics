@@ -6,7 +6,7 @@ export const Homepage: FC<ReactNode> = () => {
 
   return (
     <Layout>
-      <h1 style={{fontSize: "28px"}}>Hello World!</h1>
+      <h1 style={{fontSize: "28px", color: "green"}}>CHSB metrics page</h1>
     </Layout>
   )
 }

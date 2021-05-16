@@ -1,0 +1,246 @@
+{
+    "Main" : {
+      "body" : {
+        "type" : "Slices",
+        "fieldset" : "Slice zone",
+        "config" : {
+          "labels" : {
+            "links_columns" : [ ],
+            "subscribe_footer_slice" : [ ],
+            "address_and_disclaimer_slice" : [ ],
+            "social_media_links" : [ ],
+            "cookies_floating_banner" : [ ]
+          },
+          "choices" : {
+            "links_columns" : {
+              "type" : "Slice",
+              "fieldset" : "Link Columns",
+              "description" : "Columns with Links",
+              "icon" : "view_column",
+              "display" : "list",
+              "non-repeat" : {
+                "column_title" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                    "label" : "column_title"
+                  }
+                }
+              },
+              "repeat" : {
+                "label" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                    "label" : "label"
+                  }
+                },
+                "link" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "link"
+                  }
+                }
+              }
+            },
+            "subscribe_footer_slice" : {
+              "type" : "Slice",
+              "fieldset" : "Subscribe Footer Slice",
+              "description" : "Subscribe Footer Slice",
+              "icon" : "border_bottom",
+              "display" : "list",
+              "non-repeat" : {
+                "title" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label" : "Title"
+                  }
+                },
+                "name_input_placeholder" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Name Input placeholder"
+                  }
+                },
+                "email_input_placeholder" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Email Input placeholder"
+                  }
+                },
+                "button_text" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Button Text"
+                  }
+                },
+                "error_message_name_required" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Error Message Name required"
+                  }
+                },
+                "error_message_name_too_short" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Error Message Name Too Short"
+                  }
+                },
+                "error_message_name_too_long" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Error Message Name Too Long"
+                  }
+                },
+                "error_message_email_format" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Error Message Email Format"
+                  }
+                },
+                "error_message_email_required" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Error Message Email Required"
+                  }
+                }
+              },
+              "repeat" : { }
+            },
+            "address_and_disclaimer_slice" : {
+              "type" : "Slice",
+              "fieldset" : "Address And Disclaimer Slice",
+              "description" : "Address And Disclaimer Slice",
+              "icon" : "local_post_office",
+              "display" : "grid",
+              "non-repeat" : {
+                "disclaimer_text" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label" : "Disclaimer Text"
+                  }
+                },
+                "tnc_link_name" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Tnc Link Name"
+                  }
+                },
+                "tnc_link" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Tnc Link"
+                  }
+                },
+                "privacy_policy_link_name" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Privacy Policy Link Name"
+                  }
+                },
+                "privacy_policy_link" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Privacy Policy Link"
+                  }
+                },
+                "cookies_policy_link_name" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Cookies Policy Link Name"
+                  }
+                },
+                "cookies_policy_link" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Cookies Policy Link"
+                  }
+                },
+                "made_in_switzerland_text" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Made In Switzerland Text"
+                  }
+                },
+                "join_the_community_text" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Join The Community Text"
+                  }
+                }
+              },
+              "repeat" : {
+                "address_column_title" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Address Column Title"
+                  }
+                },
+                "entity_name" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Entity Name"
+                  }
+                },
+                "address" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Address"
+                  }
+                }
+              }
+            },
+            "social_media_links" : {
+              "type" : "Slice",
+              "fieldset" : "Social Media Links",
+              "description" : "Social Media Links",
+              "icon" : "person_pin",
+              "display" : "grid",
+              "non-repeat" : { },
+              "repeat" : {
+                "icon" : {
+                  "type" : "Image",
+                  "config" : {
+                    "constraint" : { },
+                    "thumbnails" : [ ],
+                    "label" : "Icon"
+                  }
+                },
+                "link" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "link"
+                  }
+                }
+              }
+            },
+            "cookies_floating_banner" : {
+              "type" : "Slice",
+              "fieldset" : "Cookies Floating Banner",
+              "description" : "Cookies Floating Banner",
+              "icon" : "check_box",
+              "display" : "list",
+              "non-repeat" : {
+                "text" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label" : "Text"
+                  }
+                },
+                "button_text" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Button Text"
+                  }
+                }
+              },
+              "repeat" : { }
+            }
+          }
+        }
+      }
+    }
+  }

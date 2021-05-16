@@ -1,0 +1,128 @@
+{
+    "Main" : {
+      "display_name" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "heading1",
+          "label" : "Display name"
+        }
+      },
+      "uid" : {
+        "type" : "UID",
+        "config" : {
+          "label" : "uid"
+        }
+      },
+      "nav" : {
+        "type" : "Slices",
+        "fieldset" : "Slice zone",
+        "config" : {
+          "labels" : {
+            "logo_nav_item" : [ ],
+            "button" : [ ],
+            "store_badges_navigation" : [ ]
+          },
+          "choices" : {
+            "nav_item" : {
+              "type" : "Slice",
+              "fieldset" : "Nav Item",
+              "description" : "Nav Item with Sub Navigation",
+              "icon" : "insert_link",
+              "non-repeat" : {
+                "label" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "single" : "paragraph",
+                    "label" : "Label",
+                    "placeholder" : "Enter Link Label..."
+                  }
+                },
+                "link" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Link",
+                    "placeholder" : "Select Link..."
+                  }
+                }
+              },
+              "repeat" : {
+                "sub_nav_link_label" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "single" : "paragraph",
+                    "label" : "Sub Nav Link Label",
+                    "placeholder" : "Enter Sub Nav Link Label..."
+                  }
+                },
+                "sub_nav_link" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Sub Nav Link",
+                    "placeholder" : "Select Sub Nav Link..."
+                  }
+                }
+              }
+            },
+            "logo_nav_item" : {
+              "type" : "Slice",
+              "fieldset" : "Logo Nav Item",
+              "description" : "Logo Nav Item",
+              "icon" : "account_balance_wallet",
+              "display" : "list",
+              "non-repeat" : {
+                "logo_nav_item" : {
+                  "type" : "Image",
+                  "config" : {
+                    "constraint" : { },
+                    "thumbnails" : [ ],
+                    "label" : "logo_nav_item"
+                  }
+                }
+              },
+              "repeat" : { }
+            },
+            "button" : {
+              "type" : "Slice",
+              "fieldset" : "Button",
+              "description" : "Button Nav Item",
+              "icon" : "radio_button_checked",
+              "display" : "list",
+              "non-repeat" : {
+                "label" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "single" : "paragraph",
+                    "label" : "Label"
+                  }
+                },
+                "link" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "link"
+                  }
+                }
+              },
+              "repeat" : { }
+            },
+            "store_badges_navigation" : {
+              "type" : "Slice",
+              "fieldset" : "Store Badges Navigation",
+              "description" : "Store Badges Navigation",
+              "icon" : "local_grocery_store",
+              "display" : "list",
+              "non-repeat" : {
+                "app_rating_data" : {
+                  "type" : "Link",
+                  "config" : {
+                    "select" : "document",
+                    "label" : "App Rating Data"
+                  }
+                }
+              },
+              "repeat" : { }
+            }
+          }
+        }
+      }
+    }
+  }

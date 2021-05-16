@@ -1,0 +1,274 @@
+{
+    "data": {
+      "prismicNavigation": {
+        "dataRaw": {
+          "display_name": [
+            {
+              "type": "heading1",
+              "text": "Navigation",
+              "spans": []
+            }
+          ],
+          "nav": [
+            {
+              "slice_type": "logo_nav_item",
+              "slice_label": null,
+              "items": [
+                {}
+              ],
+              "primary": {
+                "logo_nav_item": {
+                  "dimensions": {
+                    "width": 32,
+                    "height": 31
+                  },
+                  "alt": "CHSB",
+                  "copyright": null,
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/762310c9-ceb8-4a23-9d16-092070d14af5_logo.svg"
+                }
+              }
+            },
+            {
+              "slice_type": "nav_item",
+              "slice_label": null,
+              "items": [
+                {
+                  "sub_nav_link_label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Smart Engine",
+                      "spans": []
+                    }
+                  ],
+                  "sub_nav_link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/smart-engine"
+                  }
+                },
+                {
+                  "sub_nav_link_label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Asset Analysis",
+                      "spans": []
+                    }
+                  ],
+                  "sub_nav_link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/smart-engine"
+                  }
+                },
+                {
+                  "sub_nav_link_label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Portfolio Analytics",
+                      "spans": []
+                    }
+                  ],
+                  "sub_nav_link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/portfolio-analytics"
+                  }
+                },
+                {
+                  "sub_nav_link_label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Supported Assets",
+                      "spans": []
+                    }
+                  ],
+                  "sub_nav_link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/supported-assets"
+                  }
+                },
+                {
+                  "sub_nav_link_label": [
+                    {
+                      "type": "paragraph",
+                      "text": "Supported Countries",
+                      "spans": []
+                    }
+                  ],
+                  "sub_nav_link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/supported-countries"
+                  }
+                }
+              ],
+              "primary": {
+                "label": [
+                  {
+                    "type": "paragraph",
+                    "text": "Invest",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Any"
+                }
+              }
+            },
+            {
+              "slice_type": "nav_item",
+              "slice_label": null,
+              "items": [],
+              "primary": {
+                "label": [
+                  {
+                    "type": "paragraph",
+                    "text": "Earn",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://swissborg.com/smart-yield-account"
+                }
+              }
+            },
+            {
+              "slice_type": "nav_item",
+              "slice_label": null,
+              "items": [
+                {
+                  "sub_nav_link_label": [
+                    {
+                      "type": "paragraph",
+                      "text": "CHSB Multi-Utility Token",
+                      "spans": []
+                    }
+                  ],
+                  "sub_nav_link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/buy-chsb"
+                  }
+                },
+                {
+                  "sub_nav_link_label": [
+                    {
+                      "type": "paragraph",
+                      "text": "CHSB Token Metrics",
+                      "spans": []
+                    }
+                  ],
+                  "sub_nav_link": {
+                    "id": "YJ4W5xEAAB8Ai4PL",
+                    "type": "chsb_metrics",
+                    "tags": [],
+                    "slug": "chsb-metrics",
+                    "lang": "en-us",
+                    "uid": "chsb-metrics",
+                    "link_type": "Document",
+                    "isBroken": false
+                  }
+                },
+                {
+                  "sub_nav_link_label": [
+                    {
+                      "type": "paragraph",
+                      "text": "CHSB Rewards",
+                      "spans": []
+                    }
+                  ],
+                  "sub_nav_link": {
+                    "link_type": "Web",
+                    "url": "https://swissborg.com/chsb-rewards"
+                  }
+                }
+              ],
+              "primary": {
+                "label": [
+                  {
+                    "type": "paragraph",
+                    "text": "CHSB Token",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Any"
+                }
+              }
+            },
+            {
+              "slice_type": "nav_item",
+              "slice_label": null,
+              "items": [],
+              "primary": {
+                "label": [
+                  {
+                    "type": "paragraph",
+                    "text": "Premium",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://swissborg.com/premium-account"
+                }
+              }
+            },
+            {
+              "slice_type": "nav_item",
+              "slice_label": null,
+              "items": [],
+              "primary": {
+                "label": [
+                  {
+                    "type": "paragraph",
+                    "text": "Help",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://help.swissborg.com/hc/en-gb"
+                }
+              }
+            },
+            {
+              "slice_type": "button",
+              "slice_label": null,
+              "items": [
+                {}
+              ],
+              "primary": {
+                "label": [
+                  {
+                    "type": "paragraph",
+                    "text": "Download app",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://apps.apple.com/app/id1442483481?mt=8"
+                }
+              }
+            },
+            {
+              "slice_type": "store_badges_navigation",
+              "slice_label": null,
+              "items": [
+                {}
+              ],
+              "primary": {
+                "app_rating_data": {
+                  "id": "YKDudBEAAB8Al5kl",
+                  "type": "app_rating_data",
+                  "tags": [],
+                  "slug": "app-rating-data",
+                  "lang": "en-us",
+                  "link_type": "Document",
+                  "isBroken": false
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "extensions": {}
+  }

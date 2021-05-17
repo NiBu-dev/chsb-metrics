@@ -84,6 +84,18 @@
                   "label" : "Row title"
                 }
               },
+              "api_id_primary" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "API ID primary"
+                }
+              },
+              "api_id_secondary" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "API ID secondary"
+                }
+              },
               "field_value_secondary" : {
                 "type" : "Text",
                 "config" : {

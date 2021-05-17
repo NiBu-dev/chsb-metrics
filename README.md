@@ -114,16 +114,16 @@ E.g. Response:
 }
 ```
 
+## Requirements & guidelines
+Please put the solution in a separate code repository.
+
+Please use TypeScript as the main language. The choice of UI library is up to you.
+
+The API can be fetched both at build time or from the client side.
+
+Tests are not required, although please write the code with testing & future development in mind.
+
 
 
 ## Learn more about using Prismic with Gatsby.js
 > [Prismic + Gatsby.js Documentation](https://prismic.io/docs/technologies/gatsby)
-## License
-
-This software is licensed under the Apache 2 license, quoted below.
-
-Copyright 2021 [Prismic](http://prismic.io/).
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this project except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.

@@ -1,507 +1,525 @@
 {
-    "data": {
-      "prismicChsbMetrics": {
-        "dataRaw": {
-          "body": [
-            {
-              "slice_type": "hero_slice",
-              "slice_label": null,
-              "items": [
-                {}
-              ],
-              "primary": {
-                "title": [
-                  {
-                    "type": "heading1",
-                    "text": "CHSB Performance Metrics",
-                    "spans": []
-                  }
-                ],
-                "paragraph": [
-                  {
-                    "type": "paragraph",
-                    "text": "Deep-dive into the statistics of CHSB and understand the mechanics of the full SwissBorg Ecosystem.",
-                    "spans": []
-                  }
-                ]
+  "data": {
+    "prismicChsbMetrics": {
+      "dataRaw": {
+        "body": [
+          {
+            "slice_type": "hero_slice",
+            "slice_label": null,
+            "items": [
+              {
+                "fiat_icon": {
+                  "dimensions": {
+                    "width": 49,
+                    "height": 49
+                  },
+                  "alt": "USD",
+                  "copyright": null,
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/0b4bb353-dac7-4bc4-a571-4027a427ef6f_Fiat.svg"
+                },
+                "crypto_icon": {
+                  "dimensions": {
+                    "width": 49,
+                    "height": 49
+                  },
+                  "alt": "CHSB",
+                  "copyright": null,
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/58b00dc5-bd4c-40e7-8dc4-bda77337e181_Crypto.svg"
+                }
               }
-            },
-            {
-              "slice_type": "table_and_pie_chart_slice",
-              "slice_label": null,
-              "items": [
+            ],
+            "primary": {
+              "title": [
                 {
-                  "illustration": {
-                    "dimensions": {
-                      "width": 49,
-                      "height": 48
-                    },
-                    "alt": "CHSB",
-                    "copyright": null,
-                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/49ee1297-f08f-41d6-a0cb-8177cee95866_chsb-supply.svg"
-                  },
-                  "row_title": "Remaining circulating supply",
-                  "field_value_secondary": null,
-                  "pie_chart_legend": "Circulating Supply"
-                },
-                {
-                  "illustration": {
-                    "dimensions": {
-                      "width": 49,
-                      "height": 48
-                    },
-                    "alt": "CHSB diamond",
-                    "copyright": null,
-                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/6ad6e9a9-c78f-4b18-b263-5531d28715ce_chsb-diamon-stacked.svg"
-                  },
-                  "row_title": "CHSB staked",
-                  "field_value_secondary": null,
-                  "pie_chart_legend": "CHSB staked"
-                },
-                {
-                  "illustration": {
-                    "dimensions": {
-                      "width": 49,
-                      "height": 48
-                    },
-                    "alt": "CHSB yield",
-                    "copyright": null,
-                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/a48fb843-da50-449e-b46b-202c22029fd7_chsb-yield.svg"
-                  },
-                  "row_title": "CHSB in Smart Yield",
-                  "field_value_secondary": null,
-                  "pie_chart_legend": "CHSB in Smart Yield"
-                },
-                {
-                  "illustration": {
-                    "dimensions": {
-                      "width": 49,
-                      "height": 48
-                    },
-                    "alt": "CHSB burned",
-                    "copyright": null,
-                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/fff08da3-3501-4110-8ebe-933b2a3c8f79_burn.svg"
-                  },
-                  "row_title": "Circulating supply burned",
-                  "field_value_secondary": null,
-                  "pie_chart_legend": "CHSB Burned"
+                  "type": "heading1",
+                  "text": "CHSB Performance Metrics",
+                  "spans": []
                 }
               ],
-              "primary": {
-                "title": [
-                  {
-                    "type": "heading2",
-                    "text": "A breakdown of CHSB’s circulating supply",
-                    "spans": []
-                  }
-                ]
-              }
-            },
-            {
-              "slice_type": "banner_slice",
-              "slice_label": null,
-              "items": [
-                {}
-              ],
-              "primary": {
-                "title": [
-                  {
-                    "type": "paragraph",
-                    "text": "View our 2020 Token Holder Report",
-                    "spans": []
-                  }
-                ],
-                "button_text": "Read the report",
-                "button_link": {
-                  "link_type": "Web",
-                  "url": "https://app.hubspot.com/documents/7219152/view/105752608?accessId=6ceba9"
-                },
+              "paragraph": [
+                {
+                  "type": "paragraph",
+                  "text": "Deep-dive into the statistics of CHSB and understand the mechanics of the full SwissBorg Ecosystem.",
+                  "spans": []
+                }
+              ]
+            }
+          },
+          {
+            "slice_type": "table_and_pie_chart_slice",
+            "slice_label": null,
+            "items": [
+              {
                 "illustration": {
                   "dimensions": {
-                    "width": 406,
-                    "height": 406
+                    "width": 49,
+                    "height": 48
                   },
-                  "alt": "Report",
+                  "alt": "CHSB",
                   "copyright": null,
-                  "url": "https://images.prismic.io/chsb-metrics/0bbafa1a-db26-4f12-8182-09a3c78f89a2_report.png?auto=compress,format"
-                }
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/49ee1297-f08f-41d6-a0cb-8177cee95866_chsb-supply.svg"
+                },
+                "row_title": "Remaining circulating supply",
+                "field_value_secondary": null,
+                "pie_chart_legend": "Circulating Supply"
+              },
+              {
+                "illustration": {
+                  "dimensions": {
+                    "width": 49,
+                    "height": 48
+                  },
+                  "alt": "CHSB diamond",
+                  "copyright": null,
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/6ad6e9a9-c78f-4b18-b263-5531d28715ce_chsb-diamon-stacked.svg"
+                },
+                "row_title": "CHSB staked",
+                "field_value_secondary": null,
+                "pie_chart_legend": "CHSB staked"
+              },
+              {
+                "illustration": {
+                  "dimensions": {
+                    "width": 49,
+                    "height": 48
+                  },
+                  "alt": "CHSB yield",
+                  "copyright": null,
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/a48fb843-da50-449e-b46b-202c22029fd7_chsb-yield.svg"
+                },
+                "row_title": "CHSB in Smart Yield",
+                "field_value_secondary": null,
+                "pie_chart_legend": "CHSB in Smart Yield"
+              },
+              {
+                "illustration": {
+                  "dimensions": {
+                    "width": 49,
+                    "height": 48
+                  },
+                  "alt": "CHSB burned",
+                  "copyright": null,
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/fff08da3-3501-4110-8ebe-933b2a3c8f79_burn.svg"
+                },
+                "row_title": "Circulating supply burned",
+                "field_value_secondary": null,
+                "pie_chart_legend": "CHSB Burned"
               }
-            },
-            {
-              "slice_type": "ecosystem_cards_slice",
-              "slice_label": null,
-              "items": [
+            ],
+            "primary": {
+              "title": [
                 {
-                  "card_icon": {
+                  "type": "heading2",
+                  "text": "A breakdown of CHSB’s circulating supply",
+                  "spans": []
+                }
+              ]
+            }
+          },
+          {
+            "slice_type": "banner_slice",
+            "slice_label": null,
+            "items": [
+              {}
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "paragraph",
+                  "text": "View our 2020 Token Holder Report",
+                  "spans": []
+                }
+              ],
+              "button_text": "Read the report",
+              "button_link": {
+                "link_type": "Web",
+                "url": "https://app.hubspot.com/documents/7219152/view/105752608?accessId=6ceba9"
+              },
+              "illustration": {
+                "dimensions": {
+                  "width": 406,
+                  "height": 406
+                },
+                "alt": "Report",
+                "copyright": null,
+                "url": "https://images.prismic.io/chsb-metrics/0bbafa1a-db26-4f12-8182-09a3c78f89a2_report.png?auto=compress,format"
+              }
+            }
+          },
+          {
+            "slice_type": "ecosystem_cards_slice",
+            "slice_label": null,
+            "items": [
+              {
+                "card_icon": {
+                  "dimensions": {
+                    "width": 81,
+                    "height": 80
+                  },
+                  "alt": "Volume exchange",
+                  "copyright": null,
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/8b1e7b89-ec52-485a-bab3-3e4b7d18afa3_volume.svg",
+                  "active": {
                     "dimensions": {
-                      "width": 81,
-                      "height": 80
+                      "width": 48,
+                      "height": 48
                     },
                     "alt": "Volume exchange",
                     "copyright": null,
-                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/8b1e7b89-ec52-485a-bab3-3e4b7d18afa3_volume.svg",
-                    "active": {
-                      "dimensions": {
-                        "width": 48,
-                        "height": 48
-                      },
-                      "alt": "Volume exchange",
-                      "copyright": null,
-                      "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/57d63944-8d42-434d-8477-8454787bd5c8_volume-active.svg"
-                    }
-                  },
-                  "card_title": "SwissBorg app’s weekly volume",
-                  "card_subtitle": null,
-                  "api_id_primary": null,
-                  "api_id_secondary": null,
-                  "card_paragraph": [
-                    {
-                      "type": "paragraph",
-                      "text": "Transactions’ volume on the Wealth App over the last 7 days. The value is given in Dollar at the rates of the transaction time.",
-                      "spans": []
-                    }
-                  ]
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/57d63944-8d42-434d-8477-8454787bd5c8_volume-active.svg"
+                  }
                 },
-                {
-                  "card_icon": {
+                "card_title": "SwissBorg app’s weekly volume",
+                "card_subtitle": null,
+                "api_id_primary": null,
+                "api_id_secondary": null,
+                "card_paragraph": [
+                  {
+                    "type": "paragraph",
+                    "text": "Transactions’ volume on the Wealth App over the last 7 days. The value is given in Dollar at the rates of the transaction time.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "card_icon": {
+                  "dimensions": {
+                    "width": 49,
+                    "height": 48
+                  },
+                  "alt": "CHSB diamond",
+                  "copyright": null,
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/6ad6e9a9-c78f-4b18-b263-5531d28715ce_chsb-diamon-stacked.svg",
+                  "active": {
                     "dimensions": {
-                      "width": 49,
+                      "width": 48,
                       "height": 48
                     },
                     "alt": "CHSB diamond",
                     "copyright": null,
-                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/6ad6e9a9-c78f-4b18-b263-5531d28715ce_chsb-diamon-stacked.svg",
-                    "active": {
-                      "dimensions": {
-                        "width": 48,
-                        "height": 48
-                      },
-                      "alt": "CHSB diamond",
-                      "copyright": null,
-                      "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/5a808a1a-3c28-4b4a-92d3-835fb3430022_chsb-diamon-active.svg"
-                    }
-                  },
-                  "card_title": "Premium Users",
-                  "card_subtitle": "(+{{XX}} last 7 days)",
-                  "api_id_primary": null,
-                  "api_id_secondary": null,
-                  "card_paragraph": [
-                    {
-                      "type": "paragraph",
-                      "text": "The SwissBorg token holders can stake their CHSB to earn 0% commission fees and get 2X rate on the Smart Yield.",
-                      "spans": []
-                    }
-                  ]
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/5a808a1a-3c28-4b4a-92d3-835fb3430022_chsb-diamon-active.svg"
+                  }
                 },
-                {
-                  "card_icon": {
+                "card_title": "Premium Users",
+                "card_subtitle": "(+{{XX}} last 7 days)",
+                "api_id_primary": null,
+                "api_id_secondary": null,
+                "card_paragraph": [
+                  {
+                    "type": "paragraph",
+                    "text": "The SwissBorg token holders can stake their CHSB to earn 0% commission fees and get 2X rate on the Smart Yield.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "card_icon": {
+                  "dimensions": {
+                    "width": 80,
+                    "height": 80
+                  },
+                  "alt": "Currencies",
+                  "copyright": null,
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/7dc4738a-91e6-4b02-b5c8-0f81caefd546_currencies.svg",
+                  "active": {
                     "dimensions": {
-                      "width": 80,
-                      "height": 80
+                      "width": 48,
+                      "height": 48
                     },
                     "alt": "Currencies",
                     "copyright": null,
-                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/7dc4738a-91e6-4b02-b5c8-0f81caefd546_currencies.svg",
-                    "active": {
-                      "dimensions": {
-                        "width": 48,
-                        "height": 48
-                      },
-                      "alt": "Currencies",
-                      "copyright": null,
-                      "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/fb12847d-d585-4886-9b89-1e918210d2dd_currencies-active.svg"
-                    }
-                  },
-                  "card_title": "Total value of assets under management",
-                  "card_subtitle": null,
-                  "api_id_primary": null,
-                  "api_id_secondary": null,
-                  "card_paragraph": [
-                    {
-                      "type": "paragraph",
-                      "text": "Total value of all assets under management in the SwissBorg app",
-                      "spans": []
-                    }
-                  ]
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/fb12847d-d585-4886-9b89-1e918210d2dd_currencies-active.svg"
+                  }
                 },
-                {
-                  "card_icon": {
+                "card_title": "Total value of assets under management",
+                "card_subtitle": null,
+                "api_id_primary": null,
+                "api_id_secondary": null,
+                "card_paragraph": [
+                  {
+                    "type": "paragraph",
+                    "text": "Total value of all assets under management in the SwissBorg app",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "card_icon": {
+                  "dimensions": {
+                    "width": 49,
+                    "height": 48
+                  },
+                  "alt": "Burn",
+                  "copyright": null,
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/fff08da3-3501-4110-8ebe-933b2a3c8f79_burn.svg",
+                  "active": {
                     "dimensions": {
-                      "width": 49,
+                      "width": 48,
                       "height": 48
                     },
                     "alt": "Burn",
                     "copyright": null,
-                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/fff08da3-3501-4110-8ebe-933b2a3c8f79_burn.svg",
-                    "active": {
-                      "dimensions": {
-                        "width": 48,
-                        "height": 48
-                      },
-                      "alt": "Burn",
-                      "copyright": null,
-                      "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/be56322b-da78-4c9e-8d39-3e3249c0866e_burn-active.svg"
-                    }
-                  },
-                  "card_title": "Approx. pending Protect & Burn",
-                  "card_subtitle": "(Protect & Burn level at {{XX}}%)",
-                  "api_id_primary": null,
-                  "api_id_secondary": null,
-                  "card_paragraph": [
-                    {
-                      "type": "paragraph",
-                      "text": "{{XX}}% of the revenues generated from transaction fees will be used to buy back SwissBorg tokens on the secondary market and burn them. Hence, the circulating supply of the SwissBorg tokens will decrease with time while the liquidity increases.",
-                      "spans": []
-                    }
-                  ]
-                }
-              ],
-              "primary": {
-                "title": [
-                  {
-                    "type": "heading2",
-                    "text": "A snapshot of the SwissBorg Ecosystem",
-                    "spans": []
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/be56322b-da78-4c9e-8d39-3e3249c0866e_burn-active.svg"
                   }
-                ],
-                "paragraph": [
+                },
+                "card_title": "Approx. pending Protect & Burn",
+                "card_subtitle": "(Protect & Burn level at {{XX}}%)",
+                "api_id_primary": null,
+                "api_id_secondary": null,
+                "card_paragraph": [
                   {
                     "type": "paragraph",
-                    "text": "The following figures show the general growth and health of the full SwissBorg Ecosystem. The numbers are updated every hour.",
+                    "text": "{{XX}}% of the revenues generated from transaction fees will be used to buy back SwissBorg tokens on the secondary market and burn them. Hence, the circulating supply of the SwissBorg tokens will decrease with time while the liquidity increases.",
                     "spans": []
                   }
-                ],
-                "background_color": "white"
+                ]
               }
-            },
-            {
-              "slice_type": "ecosystem_cards_slice",
-              "slice_label": null,
-              "items": [
+            ],
+            "primary": {
+              "title": [
                 {
-                  "card_icon": {
+                  "type": "heading2",
+                  "text": "A snapshot of the SwissBorg Ecosystem",
+                  "spans": []
+                }
+              ],
+              "paragraph": [
+                {
+                  "type": "paragraph",
+                  "text": "The following figures show the general growth and health of the full SwissBorg Ecosystem. The numbers are updated every hour.",
+                  "spans": []
+                }
+              ],
+              "background_color": "white"
+            }
+          },
+          {
+            "slice_type": "ecosystem_cards_slice",
+            "slice_label": null,
+            "items": [
+              {
+                "card_icon": {
+                  "dimensions": {
+                    "width": 80,
+                    "height": 80
+                  },
+                  "alt": "yield",
+                  "copyright": null,
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/1fa61f70-3a2a-40e7-a20e-399d1d01e831_yield.svg",
+                  "active": {
                     "dimensions": {
-                      "width": 80,
-                      "height": 80
+                      "width": 48,
+                      "height": 48
                     },
                     "alt": "yield",
                     "copyright": null,
-                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/1fa61f70-3a2a-40e7-a20e-399d1d01e831_yield.svg",
-                    "active": {
-                      "dimensions": {
-                        "width": 48,
-                        "height": 48
-                      },
-                      "alt": "yield",
-                      "copyright": null,
-                      "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/66ce1002-ea32-404d-942f-899e61fee741_yield-active.svg"
-                    }
-                  },
-                  "card_title": "CHSBs subscribed in Yield Wallet",
-                  "card_subtitle": null,
-                  "api_id_primary": null,
-                  "api_id_secondary": null,
-                  "card_paragraph": [
-                    {
-                      "type": "paragraph",
-                      "text": "Total amount of CHSBs pledged in the Yield wallet",
-                      "spans": []
-                    }
-                  ]
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/66ce1002-ea32-404d-942f-899e61fee741_yield-active.svg"
+                  }
                 },
-                {
-                  "card_icon": {
+                "card_title": "CHSBs subscribed in Yield Wallet",
+                "card_subtitle": null,
+                "api_id_primary": null,
+                "api_id_secondary": null,
+                "card_paragraph": [
+                  {
+                    "type": "paragraph",
+                    "text": "Total amount of CHSBs pledged in the Yield wallet",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "card_icon": {
+                  "dimensions": {
+                    "width": 80,
+                    "height": 80
+                  },
+                  "alt": "CHSB percentage",
+                  "copyright": null,
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/2a42b6bc-7c7c-4673-87ad-ab5302f9c2b8_chsb-percentage.svg",
+                  "active": {
                     "dimensions": {
-                      "width": 80,
-                      "height": 80
+                      "width": 48,
+                      "height": 48
                     },
                     "alt": "CHSB percentage",
                     "copyright": null,
-                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/2a42b6bc-7c7c-4673-87ad-ab5302f9c2b8_chsb-percentage.svg",
-                    "active": {
-                      "dimensions": {
-                        "width": 48,
-                        "height": 48
-                      },
-                      "alt": "CHSB percentage",
-                      "copyright": null,
-                      "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/93eb9bfc-f8d1-4aec-8477-9543da3db334_chsb-percentage-active.svg"
-                    }
-                  },
-                  "card_title": "Number of users in CHSB Yield Wallet",
-                  "card_subtitle": null,
-                  "api_id_primary": null,
-                  "api_id_secondary": null,
-                  "card_paragraph": [
-                    {
-                      "type": "paragraph",
-                      "text": "Total number of users in the CHSB Yield program.",
-                      "spans": []
-                    }
-                  ]
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/93eb9bfc-f8d1-4aec-8477-9543da3db334_chsb-percentage-active.svg"
+                  }
                 },
-                {
-                  "card_icon": {
+                "card_title": "Number of users in CHSB Yield Wallet",
+                "card_subtitle": null,
+                "api_id_primary": null,
+                "api_id_secondary": null,
+                "card_paragraph": [
+                  {
+                    "type": "paragraph",
+                    "text": "Total number of users in the CHSB Yield program.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "card_icon": {
+                  "dimensions": {
+                    "width": 80,
+                    "height": 80
+                  },
+                  "alt": "Percentage",
+                  "copyright": null,
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/43d1a14b-4242-480d-9130-ab4031c095e1_percentage.svg",
+                  "active": {
                     "dimensions": {
-                      "width": 80,
-                      "height": 80
+                      "width": 48,
+                      "height": 48
                     },
                     "alt": "Percentage",
                     "copyright": null,
-                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/43d1a14b-4242-480d-9130-ab4031c095e1_percentage.svg",
-                    "active": {
-                      "dimensions": {
-                        "width": 48,
-                        "height": 48
-                      },
-                      "alt": "Percentage",
-                      "copyright": null,
-                      "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/a654d705-f2b7-450b-bc2c-78248c16a03d_percentage-active.svg"
-                    }
-                  },
-                  "card_title": "CHSB Yield Program rate",
-                  "card_subtitle": null,
-                  "api_id_primary": null,
-                  "api_id_secondary": null,
-                  "card_paragraph": [
-                    {
-                      "type": "paragraph",
-                      "text": "The yield rate on the CHSB Smart Yield program is computated using the Community index.",
-                      "spans": []
-                    }
-                  ]
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/a654d705-f2b7-450b-bc2c-78248c16a03d_percentage-active.svg"
+                  }
                 },
-                {
-                  "card_icon": {
+                "card_title": "CHSB Yield Program rate",
+                "card_subtitle": null,
+                "api_id_primary": null,
+                "api_id_secondary": null,
+                "card_paragraph": [
+                  {
+                    "type": "paragraph",
+                    "text": "The yield rate on the CHSB Smart Yield program is computated using the Community index.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "card_icon": {
+                  "dimensions": {
+                    "width": 81,
+                    "height": 80
+                  },
+                  "alt": "Community",
+                  "copyright": null,
+                  "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/df205436-b486-48cd-a94e-d0acaf3ec45e_community.svg",
+                  "active": {
                     "dimensions": {
-                      "width": 81,
-                      "height": 80
+                      "width": 48,
+                      "height": 48
                     },
                     "alt": "Community",
                     "copyright": null,
-                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/df205436-b486-48cd-a94e-d0acaf3ec45e_community.svg",
-                    "active": {
-                      "dimensions": {
-                        "width": 48,
-                        "height": 48
-                      },
-                      "alt": "Community",
-                      "copyright": null,
-                      "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/5a69366e-4223-4f9a-bc7d-a1481b6cffe4_community-active.svg"
-                    }
-                  },
-                  "card_title": "Community Index",
-                  "card_subtitle": null,
-                  "api_id_primary": null,
-                  "api_id_secondary": null,
-                  "card_paragraph": [
+                    "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/5a69366e-4223-4f9a-bc7d-a1481b6cffe4_community-active.svg"
+                  }
+                },
+                "card_title": "Community Index",
+                "card_subtitle": null,
+                "api_id_primary": null,
+                "api_id_secondary": null,
+                "card_paragraph": [
+                  {
+                    "type": "paragraph",
+                    "text": "The goal of the Community Index is to determine a score based on the key figures of the SwissBorg ecosystem.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "CHSB Yield Program overview",
+                  "spans": []
+                }
+              ],
+              "paragraph": [
+                {
+                  "type": "paragraph",
+                  "text": "Calculated based on the SwissBorg Community Index, the CHSB Smart Yield wallet rewards all CHSB token holders who put their CHSB in the Yield Wallet in the app.",
+                  "spans": [
                     {
-                      "type": "paragraph",
-                      "text": "The goal of the Community Index is to determine a score based on the key figures of the SwissBorg ecosystem.",
-                      "spans": []
+                      "start": 136,
+                      "end": 148,
+                      "type": "hyperlink",
+                      "data": {
+                        "link_type": "Web",
+                        "url": "https://swissborg.com/smart-yield-account",
+                        "target": "_blank"
+                      }
                     }
                   ]
                 }
               ],
-              "primary": {
-                "title": [
-                  {
-                    "type": "heading2",
-                    "text": "CHSB Yield Program overview",
-                    "spans": []
-                  }
-                ],
-                "paragraph": [
-                  {
-                    "type": "paragraph",
-                    "text": "Calculated based on the SwissBorg Community Index, the CHSB Smart Yield wallet rewards all CHSB token holders who put their CHSB in the Yield Wallet in the app.",
-                    "spans": [
-                      {
-                        "start": 136,
-                        "end": 148,
-                        "type": "hyperlink",
-                        "data": {
-                          "link_type": "Web",
-                          "url": "https://swissborg.com/smart-yield-account",
-                          "target": "_blank"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "background_color": "gray"
-              }
-            },
-            {
-              "slice_type": "transactions_table_slice",
-              "slice_label": null,
-              "items": [
-                {}
-              ],
-              "primary": {
-                "title": [
-                  {
-                    "type": "heading2",
-                    "text": "List of Protect & Burn transactions",
-                    "spans": []
-                  }
-                ],
-                "paragraph": [
-                  {
-                    "type": "paragraph",
-                    "text": "Showing the 5 most recent transactions:",
-                    "spans": []
-                  }
-                ],
-                "table_header_column_1": "Date",
-                "table_header_column_2": "Transaction ID",
-                "table_header_column_3": "Amount",
-                "button_text_previous": "Previous",
-                "button_text_next": "Next"
-              }
-            },
-            {
-              "slice_type": "call_to_action",
-              "slice_label": null,
-              "items": [
-                {},
-                {}
-              ],
-              "primary": {
-                "title": [
-                  {
-                    "type": "heading2",
-                    "text": "Download the SwissBorg App and build the financial ecosystem of the future",
-                    "spans": []
-                  }
-                ],
-                "paragraph": [],
-                "app_rating": {
-                  "id": "YKDudBEAAB8Al5kl",
-                  "type": "app_rating_data",
-                  "tags": [],
-                  "slug": "app-rating-data",
-                  "lang": "en-us",
-                  "link_type": "Document",
-                  "isBroken": false
+              "background_color": "gray"
+            }
+          },
+          {
+            "slice_type": "transactions_table_slice",
+            "slice_label": null,
+            "items": [
+              {}
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "List of Protect & Burn transactions",
+                  "spans": []
                 }
+              ],
+              "paragraph": [
+                {
+                  "type": "paragraph",
+                  "text": "Showing the 5 most recent transactions:",
+                  "spans": []
+                }
+              ],
+              "table_header_column_1": "Date",
+              "table_header_column_2": "Transaction ID",
+              "table_header_column_3": "Amount",
+              "button_text_previous": "Previous",
+              "button_text_next": "Next"
+            }
+          },
+          {
+            "slice_type": "call_to_action",
+            "slice_label": null,
+            "items": [
+              {},
+              {}
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Download the SwissBorg App and build the financial ecosystem of the future",
+                  "spans": []
+                }
+              ],
+              "paragraph": [],
+              "app_rating": {
+                "id": "YKDudBEAAB8Al5kl",
+                "type": "app_rating_data",
+                "tags": [],
+                "slug": "app-rating-data",
+                "lang": "en-us",
+                "link_type": "Document",
+                "isBroken": false
               }
             }
-          ],
-          "meta_title": "CHSB token live performance and metrics | SwissBorg",
-          "meta_description": "Deep-dive into the statistics of CHSB and understand the mechanics of the full SwissBorg ecosystem.",
-          "open_graph_image": {
-            "dimensions": {
-              "width": 2400,
-              "height": 1260
-            },
-            "alt": "CHSB metrics",
-            "copyright": null,
-            "url": "https://images.prismic.io/chsb-metrics/84e999c1-3fe7-4afa-8e51-ed5282011e7d_chsb-metrics-og.png?auto=compress,format"
           }
-        },
-        "uid": "chsb-metrics"
+        ],
+        "meta_title": "CHSB token live performance and metrics | SwissBorg",
+        "meta_description": "Deep-dive into the statistics of CHSB and understand the mechanics of the full SwissBorg ecosystem.",
+        "open_graph_image": {
+          "dimensions": {
+            "width": 2400,
+            "height": 1260
+          },
+          "alt": "CHSB metrics",
+          "copyright": null,
+          "url": "https://images.prismic.io/chsb-metrics/84e999c1-3fe7-4afa-8e51-ed5282011e7d_chsb-metrics-og.png?auto=compress,format"
+        }
       }
-    },
-    "extensions": {}
-  }
+    }
+  },
+  "extensions": {}
+}

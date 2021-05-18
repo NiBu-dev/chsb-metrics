@@ -60,6 +60,8 @@
                   "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/49ee1297-f08f-41d6-a0cb-8177cee95866_chsb-supply.svg"
                 },
                 "row_title": "Remaining circulating supply",
+                "api_id_primary": "chsbCirculatingSupplyTokens",
+                "api_id_secondary": null,
                 "field_value_secondary": null,
                 "pie_chart_legend": "Circulating Supply"
               },
@@ -74,7 +76,9 @@
                   "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/6ad6e9a9-c78f-4b18-b263-5531d28715ce_chsb-diamon-stacked.svg"
                 },
                 "row_title": "CHSB staked",
-                "field_value_secondary": null,
+                "api_id_primary": "chsbStackedTokens",
+                "api_id_secondary": "chsbStackedPercentage",
+                "field_value_secondary": "({{chsbStackedPercentage}}% of Circulating supply)",
                 "pie_chart_legend": "CHSB staked"
               },
               {
@@ -88,7 +92,9 @@
                   "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/a48fb843-da50-449e-b46b-202c22029fd7_chsb-yield.svg"
                 },
                 "row_title": "CHSB in Smart Yield",
-                "field_value_secondary": null,
+                "api_id_primary": "chsbYieldPledgedTokens",
+                "api_id_secondary": "chsbInYieldPercentage",
+                "field_value_secondary": "({{chsbInYieldPercentage}}% of Circulating supply)",
                 "pie_chart_legend": "CHSB in Smart Yield"
               },
               {
@@ -102,6 +108,8 @@
                   "url": "https://chsb-metrics.cdn.prismic.io/chsb-metrics/fff08da3-3501-4110-8ebe-933b2a3c8f79_burn.svg"
                 },
                 "row_title": "Circulating supply burned",
+                "api_id_primary": "chsbBurnedTokens",
+                "api_id_secondary": "totalSupplyBurnedPercentage",
                 "field_value_secondary": null,
                 "pie_chart_legend": "CHSB Burned"
               }
@@ -171,7 +179,7 @@
                 },
                 "card_title": "SwissBorg app’s weekly volume",
                 "card_subtitle": null,
-                "api_id_primary": null,
+                "api_id_primary": "weeklyVolumeUSD",
                 "api_id_secondary": null,
                 "card_paragraph": [
                   {
@@ -202,8 +210,8 @@
                 },
                 "card_title": "Premium Users",
                 "card_subtitle": "(+{{XX}} last 7 days)",
-                "api_id_primary": null,
-                "api_id_secondary": null,
+                "api_id_primary": "premiumUsersCount",
+                "api_id_secondary": "premiumUsersLastWeekCount",
                 "card_paragraph": [
                   {
                     "type": "paragraph",
@@ -233,7 +241,7 @@
                 },
                 "card_title": "Total value of assets under management",
                 "card_subtitle": null,
-                "api_id_primary": null,
+                "api_id_primary": "totalAumUSD",
                 "api_id_secondary": null,
                 "card_paragraph": [
                   {
@@ -263,13 +271,13 @@
                   }
                 },
                 "card_title": "Approx. pending Protect & Burn",
-                "card_subtitle": "(Protect & Burn level at {{XX}}%)",
-                "api_id_primary": null,
-                "api_id_secondary": null,
+                "card_subtitle": "(Protect & Burn level at {{buyBackPercentage}}%)",
+                "api_id_primary": "chsbToBurnUSD",
+                "api_id_secondary": "buyBackPercentage",
                 "card_paragraph": [
                   {
                     "type": "paragraph",
-                    "text": "{{XX}}% of the revenues generated from transaction fees will be used to buy back SwissBorg tokens on the secondary market and burn them. Hence, the circulating supply of the SwissBorg tokens will decrease with time while the liquidity increases.",
+                    "text": "{{buyBackPercentage}}% of the revenues generated from transaction fees will be used to buy back SwissBorg tokens on the secondary market and burn them. Hence, the circulating supply of the SwissBorg tokens will decrease with time while the liquidity increases.",
                     "spans": []
                   }
                 ]
@@ -318,7 +326,7 @@
                 },
                 "card_title": "CHSBs subscribed in Yield Wallet",
                 "card_subtitle": null,
-                "api_id_primary": null,
+                "api_id_primary": "chsbYieldPledgedTokens",
                 "api_id_secondary": null,
                 "card_paragraph": [
                   {
@@ -349,7 +357,7 @@
                 },
                 "card_title": "Number of users in CHSB Yield Wallet",
                 "card_subtitle": null,
-                "api_id_primary": null,
+                "api_id_primary": "chsbYieldUsersCount",
                 "api_id_secondary": null,
                 "card_paragraph": [
                   {
@@ -380,7 +388,7 @@
                 },
                 "card_title": "CHSB Yield Program rate",
                 "card_subtitle": null,
-                "api_id_primary": null,
+                "api_id_primary": "chsbYieldAPY",
                 "api_id_secondary": null,
                 "card_paragraph": [
                   {
@@ -411,7 +419,7 @@
                 },
                 "card_title": "Community Index",
                 "card_subtitle": null,
-                "api_id_primary": null,
+                "api_id_primary": "communityIndex",
                 "api_id_secondary": null,
                 "card_paragraph": [
                   {

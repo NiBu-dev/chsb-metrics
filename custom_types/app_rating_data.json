@@ -1,67 +1,75 @@
 {
-    "Main" : {
-      "star_icon" : {
-        "type" : "Image",
-        "config" : {
-          "constraint" : { },
-          "thumbnails" : [ ],
-          "label" : "Star Icon"
-        }
-      },
-      "qr_code" : {
-        "type" : "Image",
-        "config" : {
-          "constraint" : { },
-          "thumbnails" : [ ],
-          "label" : "QR Code"
-        }
-      },
-      "qr_code_text" : {
-        "type" : "StructuredText",
-        "config" : {
-          "multi" : "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
-          "label" : "QR Code text"
-        }
-      },
-      "qr_code_button_image" : {
-        "type" : "Image",
-        "config" : {
-          "constraint" : { },
-          "thumbnails" : [ ],
-          "label" : "QR Code Button Image"
-        }
-      },
-      "body" : {
-        "type" : "Slices",
-        "fieldset" : "Slice zone",
-        "config" : {
-          "labels" : null,
-          "choices" : {
-            "app_store" : {
-              "type" : "Slice",
-              "fieldset" : "App Store",
-              "description" : "App Store",
-              "icon" : "get_app",
-              "display" : "list",
-              "non-repeat" : { },
-              "repeat" : {
-                "store_image" : {
-                  "type" : "Image",
-                  "config" : {
-                    "constraint" : { },
-                    "thumbnails" : [ {
-                      "name" : "active",
-                      "width" : 150,
-                      "height" : null
-                    } ],
-                    "label" : "Store Image"
-                  }
-                },
-                "store_rating" : {
-                  "type" : "Text",
-                  "config" : {
-                    "label" : "Store rating"
-                  }
+  "Main": {
+    "star_icon": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Star Icon"
+      }
+    },
+    "qr_code": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "QR Code"
+      }
+    },
+    "qr_code_text": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label": "QR Code text"
+      }
+    },
+    "qr_code_button_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "QR Code Button Image"
+      }
+    },
+    "body": {
+      "type": "Slices",
+      "fieldset": "Slice zone",
+      "config": {
+        "labels": null,
+        "choices": {
+          "app_store": {
+            "type": "Slice",
+            "fieldset": "App Store",
+            "description": "App Store",
+            "icon": "get_app",
+            "display": "list",
+            "non-repeat": {},
+            "repeat": {
+              "store_image": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [
+                    {
+                      "name": "active",
+                      "width": 150,
+                      "height": null
+                    }
+                  ],
+                  "label": "Store Image"
+                }
+              },
+              "store_rating": {
+                "type": "Text",
+                "config": {
+                  "label": "Store rating"
+                }
+              },
+              "store_link": {
+                "type": "Link",
+                "config": {
+                  "label": "Store link",
+                  "select": null
                 }
               }
             }
@@ -70,3 +78,4 @@
       }
     }
   }
+}

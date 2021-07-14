@@ -44,20 +44,11 @@ https://chsb-metrics-api.nbumbu.workers.dev/
 ```
 The data required for the chsb chart can be fetched from the following api ends:
 ```
-/chsb-price-all
-```
-```
-/chsb-price-year
-```
-```
 /chsb-price-month
-```
-```
-/chsb-price-day
 ```
 E.g. Request:
 ```
-GET https://chsb-metrics-api.nbumbu.workers.dev/chsb-price-all
+GET https://chsb-metrics-api.nbumbu.workers.dev/chsb-price-month
 ```
 E.g. Response: 
 ```
@@ -94,23 +85,7 @@ E.g. Response:
     "chsbYieldPledgedTokens": 331754774,
     "chsbInYieldPercentage": 47.11,
     "chsbBurnedTokens": 4898917.07,
-    "totalSupplyBurnedPercentage": 0.6956675457607038,
-    "weeklyVolumeUSD": 259167353,
-    "premiumUsersCount": 5280,
-    "premiumUsersLastWeekCount": 83,
-    "totalAumUSD": 1665087509,
-    "chsbToBurnUSD": 1304601.02,
-    "buyBackPercentage": 20,
-    "chsbYieldUsersCount": 73603,
-    "chsbYieldAPY": 10.5,
-    "communityIndex": 9.3,
-    "transactions": [
-        {
-            "dateTime": "2021-04-14T12:05:47+00:00",
-            "chsbAmountTokens": 435240,
-            "url": "https://etherscan.io/tx/0x4adf13d9edeb59f5f9c83a762e84afe8fb6174864059792809cd85ce2032a73f"
-        },
-    ]
+    "totalSupplyBurnedPercentage": 0.6956675457607038
 }
 ```
 
@@ -122,6 +97,8 @@ Please use TypeScript as the main language. The choice of UI library is up to yo
 The API can be fetched both at build time or from the client side.
 
 Tests are not required, although please write the code with testing & future development in mind.
+
+If the data is not present in CMS, you can hard-code it directly in the component.
 
 
 

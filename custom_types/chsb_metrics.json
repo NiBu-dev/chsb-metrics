@@ -1,342 +1,138 @@
 {
-  "Main" : {
-    "uid" : {
-      "type" : "UID",
-      "config" : {
-        "label" : "uid"
+  "Main": {
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "uid"
       }
     },
-    "body" : {
-      "type" : "Slices",
-      "fieldset" : "Slice zone",
-      "config" : {
-        "labels" : { },
-        "choices" : {
-          "hero_slice" : {
-            "type" : "Slice",
-            "fieldset" : "Hero Slice",
-            "description" : "Hero Slice",
-            "icon" : "accessibility",
-            "display" : "list",
-            "non-repeat" : {
-              "title" : {
-                "type" : "StructuredText",
-                "config" : {
-                  "single" : "heading1",
-                  "label" : "Title"
+    "body": {
+      "type": "Slices",
+      "fieldset": "Slice zone",
+      "config": {
+        "labels": {},
+        "choices": {
+          "hero_slice": {
+            "type": "Slice",
+            "fieldset": "Hero Slice",
+            "description": "Hero Slice",
+            "icon": "accessibility",
+            "display": "list",
+            "non-repeat": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading1",
+                  "label": "Title"
                 }
               },
-              "paragraph" : {
-                "type" : "StructuredText",
-                "config" : {
-                  "multi" : "paragraph,preformatted,strong,em,hyperlink,rtl",
-                  "allowTargetBlank" : true,
-                  "label" : "Paragraph"
+              "paragraph": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph,preformatted,strong,em,hyperlink,rtl",
+                  "allowTargetBlank": true,
+                  "label": "Paragraph"
                 }
               }
             },
-            "repeat" : {
-              "fiat_icon" : {
-                "type" : "Image",
-                "config" : {
-                  "constraint" : { },
-                  "thumbnails" : [ ],
-                  "label" : "Fiat Icon"
+            "repeat": {
+              "fiat_icon": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [],
+                  "label": "Fiat Icon"
                 }
               },
-              "crypto_icon" : {
-                "type" : "Image",
-                "config" : {
-                  "constraint" : { },
-                  "thumbnails" : [ ],
-                  "label" : "Crypto Icon"
+              "crypto_icon": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [],
+                  "label": "Crypto Icon"
                 }
               }
             }
           },
-          "table_and_pie_chart_slice" : {
-            "type" : "Slice",
-            "fieldset" : "Table and pie chart slice",
-            "description" : "Table and pie chart slice",
-            "icon" : "pie_chart_outlined",
-            "display" : "grid",
-            "non-repeat" : {
-              "title" : {
-                "type" : "StructuredText",
-                "config" : {
-                  "single" : "heading2",
-                  "label" : "Title"
+          "table_and_pie_chart_slice": {
+            "type": "Slice",
+            "fieldset": "Table and pie chart slice",
+            "description": "Table and pie chart slice",
+            "icon": "pie_chart_outlined",
+            "display": "grid",
+            "non-repeat": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2",
+                  "label": "Title"
                 }
               }
             },
-            "repeat" : {
-              "illustration" : {
-                "type" : "Image",
-                "config" : {
-                  "constraint" : { },
-                  "thumbnails" : [ ],
-                  "label" : "Illustration"
+            "repeat": {
+              "illustration": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [],
+                  "label": "Illustration"
                 }
               },
-              "row_title" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "Row title"
+              "row_title": {
+                "type": "Text",
+                "config": {
+                  "label": "Row title"
                 }
               },
-              "api_id_primary" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "API ID primary"
+              "api_id_primary": {
+                "type": "Text",
+                "config": {
+                  "label": "API ID primary"
                 }
               },
-              "api_id_secondary" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "API ID secondary"
+              "api_id_secondary": {
+                "type": "Text",
+                "config": {
+                  "label": "API ID secondary"
                 }
               },
-              "field_value_secondary" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "Field value secondary"
+              "field_value_secondary": {
+                "type": "Text",
+                "config": {
+                  "label": "Field value secondary"
                 }
               },
-              "pie_chart_legend" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "Pie chart legend"
+              "pie_chart_legend": {
+                "type": "Text",
+                "config": {
+                  "label": "Pie chart legend"
                 }
               }
             }
-          },
-          "banner_slice" : {
-            "type" : "Slice",
-            "fieldset" : "Banner Slice",
-            "description" : "Banner Slice",
-            "icon" : "book",
-            "display" : "list",
-            "non-repeat" : {
-              "title" : {
-                "type" : "StructuredText",
-                "config" : {
-                  "multi" : "paragraph,preformatted,heading2,heading3,heading4,strong,em,hyperlink,embed,rtl",
-                  "allowTargetBlank" : true,
-                  "label" : "Title"
-                }
-              },
-              "button_text" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "Button text"
-                }
-              },
-              "button_link" : {
-                "type" : "Link",
-                "config" : {
-                  "label" : "Button Link"
-                }
-              },
-              "illustration" : {
-                "type" : "Image",
-                "config" : {
-                  "constraint" : { },
-                  "thumbnails" : [ ],
-                  "label" : "Illustration"
-                }
-              }
-            },
-            "repeat" : { }
-          },
-          "ecosystem_cards_slice" : {
-            "type" : "Slice",
-            "fieldset" : "Ecosystem cards slice",
-            "description" : "Ecosystem cards slice",
-            "icon" : "apps",
-            "display" : "grid",
-            "non-repeat" : {
-              "title" : {
-                "type" : "StructuredText",
-                "config" : {
-                  "single" : "heading2",
-                  "label" : "Title"
-                }
-              },
-              "paragraph" : {
-                "type" : "StructuredText",
-                "config" : {
-                  "multi" : "paragraph,preformatted,strong,em,hyperlink,embed,rtl",
-                  "allowTargetBlank" : true,
-                  "label" : "Paragraph"
-                }
-              },
-              "background_color" : {
-                "type" : "Select",
-                "config" : {
-                  "options" : [ "white", "gray" ],
-                  "label" : "Background Color"
-                }
-              }
-            },
-            "repeat" : {
-              "card_icon" : {
-                "type" : "Image",
-                "config" : {
-                  "constraint" : {
-                    "width" : null
-                  },
-                  "thumbnails" : [ {
-                    "name" : "active",
-                    "width" : 48,
-                    "height" : null
-                  } ],
-                  "label" : "Card Icon"
-                }
-              },
-              "card_title" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "Card Title"
-                }
-              },
-              "card_subtitle" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "Card subtitle"
-                }
-              },
-              "api_id_primary" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "Api Id primary"
-                }
-              },
-              "api_id_secondary" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "Api Id secondary"
-                }
-              },
-              "card_paragraph" : {
-                "type" : "StructuredText",
-                "config" : {
-                  "multi" : "paragraph,preformatted,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
-                  "allowTargetBlank" : true,
-                  "label" : "Card Paragraph"
-                }
-              }
-            }
-          },
-          "transactions_table_slice" : {
-            "type" : "Slice",
-            "fieldset" : "Transactions table slice",
-            "description" : "Transactions table slice",
-            "icon" : "grid_on",
-            "display" : "list",
-            "non-repeat" : {
-              "title" : {
-                "type" : "StructuredText",
-                "config" : {
-                  "single" : "heading2",
-                  "label" : "Title"
-                }
-              },
-              "paragraph" : {
-                "type" : "StructuredText",
-                "config" : {
-                  "multi" : "paragraph,preformatted,strong,em,hyperlink,embed,rtl",
-                  "allowTargetBlank" : true,
-                  "label" : "Paragraph"
-                }
-              },
-              "table_header_column_1" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "Table header column 1"
-                }
-              },
-              "table_header_column_2" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "Table header column 2"
-                }
-              },
-              "table_header_column_3" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "Table header column 3"
-                }
-              },
-              "button_text_previous" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "Button Text Previous"
-                }
-              },
-              "button_text_next" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "Button Text Next"
-                }
-              }
-            },
-            "repeat" : { }
-          },
-          "call_to_action" : {
-            "type" : "Slice",
-            "fieldset" : "Call to action",
-            "description" : "A predesigned 'Call to action' for section for your site",
-            "icon" : "notifications_active",
-            "display" : "list",
-            "non-repeat" : {
-              "title" : {
-                "type" : "StructuredText",
-                "config" : {
-                  "single" : "heading1,heading2,heading3,heading4,heading5,heading6",
-                  "label" : "Title"
-                }
-              },
-              "paragraph" : {
-                "type" : "StructuredText",
-                "config" : {
-                  "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
-                  "label" : "Paragraph"
-                }
-              },
-              "app_rating" : {
-                "type" : "Link",
-                "config" : {
-                  "select" : "document",
-                  "customtypes" : [ "app_rating_data" ],
-                  "label" : "App Rating"
-                }
-              }
-            },
-            "repeat" : { }
           }
         }
       }
     }
   },
-  "SEO" : {
-    "meta_title" : {
-      "type" : "Text",
-      "config" : {
-        "label" : "Meta title"
+  "SEO": {
+    "meta_title": {
+      "type": "Text",
+      "config": {
+        "label": "Meta title"
       }
     },
-    "meta_description" : {
-      "type" : "Text",
-      "config" : {
-        "label" : "Meta description"
+    "meta_description": {
+      "type": "Text",
+      "config": {
+        "label": "Meta description"
       }
     },
-    "open_graph_image" : {
-      "type" : "Image",
-      "config" : {
-        "constraint" : { },
-        "thumbnails" : [ ],
-        "label" : "Open Graph Image"
+    "open_graph_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Open Graph Image"
       }
     }
   }
